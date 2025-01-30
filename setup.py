@@ -15,7 +15,7 @@ setup(
     author="Wujie Wang, Daniel Schwalbe-Koda, Simon Axelrod, Shi Jun Ang",
     email="{wwj,dskoda,saxelrod}@mit.edu",
     url="https://github.com/learningmatter-mit/NeuralForceField",
-    packages=find_packages("."),
+    packages=find_packages(include=["nff", "nff.*"]),
     scripts=[
         "scripts/nff_train.py",
     ],
