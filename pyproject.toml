@@ -51,7 +51,7 @@ dev = [
 Homepage = "https://github.mit.edu/MLMat/NeuralForceField/"
 
 [tool.setuptools]
-packages.find = { where = ["."], include = ["nff*"] }
+packages.find = { where = ["."], include = ["nff", "nff.*"] }
 
 [tool.ruff]
 include = ["**/pyproject.toml", "*.ipynb", "*.py", "*.pyi"]
